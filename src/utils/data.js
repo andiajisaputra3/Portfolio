@@ -1,6 +1,6 @@
 import { FaLinkedin, FaInstagram, FaGithub, FaCode, FaReact } from "react-icons/fa";
 import { CiDesktopMouse2 } from "react-icons/ci";
-import imgProject from '../../public/assets/image/img-project.png'
+import imgProject from '/assets/image/img-project.png'
 
 
 export const navbarItems = () => [

@@ -1,5 +1,5 @@
 import React from 'react'
-import imgAbout from '../../../public/assets/image/img-about.jpg'
+import imgAbout from '/assets/image/img-about.jpg'
 import DetailImage from './DetailImage'
 import AboutSosmed from './AboutSosmed'
 

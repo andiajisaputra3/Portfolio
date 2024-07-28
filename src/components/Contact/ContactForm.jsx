@@ -63,7 +63,7 @@ export default function ContactForm() {
                         <label className='absolute top-3 w-full transition-all duration-300 ease-in-out pointer-events-none'>Write your message</label>
                     </div>
                     <div className='mt-7'>
-                        <button type='submit' className='btn-form relative flex justify-center items-center text-white font-semibold gap-2 w-40 h-14 rounded-md border-2 border-solid border-white overflow-hidden tracking-wide transition-all duration-500 hover:text-customPrimary hover:border-customPrimary '>
+                        <button type='submit' className='btn-form relative flex justify-center items-center text-white font-semibold gap-2 w-full lg:w-40 h-14 rounded-md border-2 border-solid border-white overflow-hidden tracking-wide transition-all duration-500 hover:text-customPrimary hover:border-customPrimary '>
                             <span className='text-content'>Send</span> <IoIosSend className='text-3xl' />
                         </button>
                     </div>

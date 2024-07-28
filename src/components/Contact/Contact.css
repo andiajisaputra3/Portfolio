@@ -1,0 +1,98 @@
+.input-data input:focus~label,
+.textarea textarea:focus~label,
+.input-data input:valid~label,
+.textarea textarea:valid~label {
+    transform: translateY(-25px);
+    font-size: 14px;
+    color: #04DACA;
+}
+
+.input-data .underline:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    bottom: 0;
+    width: 100%;
+    background: #04DACA;
+    transform: scaleX(0);
+    transform-origin: center;
+    transition: transform 0.3s ease;
+}
+
+.input-data input:focus~.underline:before,
+.input-data input:valid~.underline:before,
+.textarea textarea:focus~.underline:before,
+.textarea textarea:valid~.underline:before {
+    transform: scale(1);
+}
+
+.btn-form:hover {
+    color: #1A1A1A;
+}
+
+.btn-form::before {
+    content: "";
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background: #04DACA;
+    border-radius: 50px 50px 100% 100%;
+    z-index: 0;
+}
+
+.btn-form:hover::before {
+    bottom: 0;
+    border-radius: 0;
+}
+
+.btn-form>* {
+    position: relative;
+    /* Pastikan anak-anak tombol memiliki posisi relatif */
+    z-index: 1;
+    /* Pastikan teks berada di atas pseudo-element */
+}
+
+.btn-form>.text-content {
+    z-index: 2;
+    /* Memastikan teks berada di atas */
+}
+
+.link-cv::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1A1A1A;
+    transition: 0.5s;
+    border-radius: 100% 100% 50px 50px;
+}
+
+.link-cv:hover:before {
+    top: 0;
+    border-radius: 0;
+}
+
+.icon-contact:hover .rotate-y-360 {
+    transform: rotateY(360deg);
+    color: #fff;
+}
+
+.icon-contact::before {
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.5s;
+    background-color: #1A1A1A;
+}
+
+.icon-contact:hover::before {
+    top: 0;
+}

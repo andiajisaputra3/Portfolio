@@ -1,0 +1,6 @@
+.group:hover .card-face {
+    border-radius: 50%;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}

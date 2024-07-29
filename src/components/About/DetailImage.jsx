@@ -1,8 +1,9 @@
 import React from 'react'
 
 export default function DetailImage() {
+
     return (
-        <div className='flex flex-col items-center lg:items-baseline lg:flex-row gap-5 mt-5'>
+        <div className='flex flex-col items-center lg:items-baseline lg:flex-row gap-5 px-2 mt-5'>
             <p className='w-full md:w-4/5 xl:w-1/2 text-center lg:text-start'>
                 I am a fresh graduate of Computer Engineering from Universitas of Muhammadiyah Malang with an interest in creating engaging and intuitive user interfaces. I am ready to start my career as a Front End Developer.
             </p>

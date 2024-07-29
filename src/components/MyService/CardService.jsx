@@ -9,7 +9,7 @@ export default function CardService() {
     return (
         <div className='grid grid-cols-1 lg:grid-cols-3 justify-items-center gap-8 mt-10 transition-all duration-500'>
             {cardItems.map((item) => (
-                <div key={item.id} className='group relative bg-customThird w-72 h-80 p-5 rounded-lg shadow shadow-white duration-300 hover:shadow-md hover:shadow-customSecond'>
+                <div key={item.id} className='group relative bg-customThird w-72 h-80 p-5 rounded-lg duration-300 hover:shadow-md hover:shadow-customSecond'>
                     <div className='flex flex-col w-full h-60 items-center mt-10'>
                         <h2 className='text-customSecond text-2xl font-semibold pt-10 pb-5'>{item.title}</h2>
                         <div className='h-full text-center flex flex-col justify-between items-center px-2'>

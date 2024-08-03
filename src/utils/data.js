@@ -99,7 +99,7 @@ export const projectItems = () => [
     {
         id: 1,
         title: 'Weather App',
-        desc: 'Weather App adalah aplikasi cuaca yang dibangun menggunakan React, Axios, dan OpenWeatherMap API.',
+        desc: 'Aplikasi cuaca yang dibangun menggunakan React, Axios, dan OpenWeatherMap API.',
         image: weatherApp,
         target: 'https://apps-weather-react.netlify.app/'
     },

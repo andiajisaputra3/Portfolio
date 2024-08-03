@@ -1,7 +1,7 @@
 import { FaLinkedin, FaInstagram, FaGithub, FaCode, FaReact } from "react-icons/fa";
 import { CiDesktopMouse2 } from "react-icons/ci";
 import imgProject from '/assets/image/img-project.png'
-
+import weatherApp from '/assets/image/weather-app.png'
 
 export const navbarItems = () => [
     {
@@ -98,10 +98,10 @@ export const serviceItems = () => [
 export const projectItems = () => [
     {
         id: 1,
-        title: 'Cooming Soon',
-        desc: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-        image: imgProject,
-        target: '#home'
+        title: 'Weather App',
+        desc: 'Weather App adalah aplikasi cuaca yang dibangun menggunakan React, Axios, dan OpenWeatherMap API.',
+        image: weatherApp,
+        target: 'https://apps-weather-react.netlify.app/'
     },
     {
         id: 2,
